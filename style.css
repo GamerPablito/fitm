@@ -1,5 +1,7 @@
 * {
   font-family: "Lemon Milk";
+  text-underline-offset: 4px;
+  color: white;
 }
 
 body {
@@ -7,21 +9,36 @@ body {
   background-size: cover;
 }
 
-div#main,
+div#content {
+  background-color: black;
+  margin-top: 5%;
+}
+
+div,
 footer {
   margin: auto;
   text-align: center;
 }
 
-p#main {
-  border-color: black;
+h1 {
+  font-size: 36px;
+}
+
+div#content p {
+  margin: auto;
+  width: 70%;
 }
 
 p#main,
-img#main2 {
-  color: antiquewhite;
+img#main2,
+img#media {
+  color: blanchedalmond;
   font-size: 28px;
   margin-left: -20%;
+}
+
+img#media:hover {
+  cursor: pointer;
 }
 
 img#main {
@@ -29,10 +46,10 @@ img#main {
   margin-right: 8%;
 }
 
-nav {
+nav,
+footer {
   background-color: black;
   padding: 0.6%;
-  z-index: 1;
 }
 
 img,
