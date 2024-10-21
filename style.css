@@ -1,0 +1,66 @@
+* {
+  font-family: "Lemon Milk";
+}
+
+body {
+  background-image: url("bg.png");
+  background-size: cover;
+}
+
+div#main,
+footer {
+  margin: auto;
+  text-align: center;
+}
+
+p#main {
+  border-color: black;
+}
+
+p#main,
+img#main2 {
+  color: antiquewhite;
+  font-size: 28px;
+  margin-left: -20%;
+}
+
+img#main {
+  float: right;
+  margin-right: 8%;
+}
+
+nav {
+  background-color: black;
+  padding: 0.6%;
+  z-index: 1;
+}
+
+img,
+footer,
+nav object {
+  padding: 1%;
+}
+
+nav object {
+  width: 20%;
+  padding-left: 60%;
+}
+
+@media (min-width: 1280px) {
+  nav img,
+  nav object {
+    height: 75px;
+  }
+}
+
+@media (max-width: 1280px) {
+  nav img,
+  nav object {
+    height: 50px;
+  }
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("lemon_milk.otf");
+}
