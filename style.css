@@ -8,6 +8,7 @@
 body {
   background-image: url("bg.png");
   background-size: cover;
+  overflow-x: hidden;
 }
 
 div#content {
@@ -35,6 +36,7 @@ img#media {
   margin-left: -13%;
 }
 
+img#lc380:hover,
 img#media:hover {
   cursor: pointer;
 }
@@ -43,6 +45,13 @@ img#main {
   float: right;
   margin-top: 1%;
   margin-right: 4%;
+}
+
+nav,
+div#content {
+  width: 100.5%;
+  margin-left: -0.5%;
+  margin-top: -0.5%;
 }
 
 nav,
