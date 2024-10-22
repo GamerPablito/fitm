@@ -7,25 +7,32 @@
 
 body {
   background-image: url("bg.png");
-  background-size: cover;
   overflow-x: hidden;
 }
 
-div#content {
-  background-color: black;
+footer {
+  background-image: url("bg_footer.png");
+}
+
+body,
+footer {
+  background-size: cover;
 }
 
 table {
   width: 90%;
 }
 
-table,
-footer {
-  margin: auto;
-}
-
 h1 {
   font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+footer p {
+  width: 60%;
 }
 
 p#main,
@@ -37,8 +44,13 @@ img#media {
 }
 
 img#lc380:hover,
-img#media:hover {
+img#media:hover,
+img#media2:hover {
   cursor: pointer;
+}
+
+img#media2 {
+  height: 10%;
 }
 
 img#main {
@@ -49,15 +61,20 @@ img#main {
 
 nav,
 div#content {
+  background-color: black;
   width: 100.5%;
   margin-left: -0.5%;
   margin-top: -0.5%;
 }
 
-nav,
-footer {
-  background-color: black;
+nav {
   padding: 0.6%;
+}
+
+table,
+footer,
+footer p {
+  margin: auto;
 }
 
 img,
