@@ -3,5 +3,5 @@
     <rect y="40%" width="1px" height="20%" fill="white" rx="10px" ry="10px">
         <animate attributeName="width" dur="1s" to="37.5%" fill="freeze"/>
     </rect>
-    <text x="90%" y="57%" textLength="10%" font-family="Bahnschrift" font-size="16px" fill="gray">42%</text>
+    <text x="90%" y="57%" font-family="Bahnschrift" font-size="16px" fill="gray">42%</text>
 </svg>

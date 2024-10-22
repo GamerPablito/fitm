@@ -1,6 +1,7 @@
 * {
   font-family: "Lemon Milk";
   text-underline-offset: 4px;
+  text-align: center;
   color: white;
 }
 
@@ -11,22 +12,19 @@ body {
 
 div#content {
   background-color: black;
-  margin-top: 5%;
 }
 
-div,
+table {
+  width: 90%;
+}
+
+table,
 footer {
   margin: auto;
-  text-align: center;
 }
 
 h1 {
   font-size: 36px;
-}
-
-div#content p {
-  margin: auto;
-  width: 70%;
 }
 
 p#main,
@@ -34,7 +32,7 @@ img#main2,
 img#media {
   color: blanchedalmond;
   font-size: 28px;
-  margin-left: -20%;
+  margin-left: -13%;
 }
 
 img#media:hover {
@@ -43,7 +41,8 @@ img#media:hover {
 
 img#main {
   float: right;
-  margin-right: 8%;
+  margin-top: 1%;
+  margin-right: 4%;
 }
 
 nav,
@@ -53,9 +52,22 @@ footer {
 }
 
 img,
+div,
 footer,
 nav object {
   padding: 1%;
+}
+
+table tr {
+  display: inline;
+}
+
+table tr td {
+  padding: 2%;
+}
+
+table tr td img {
+  width: 100%;
 }
 
 nav object {
@@ -63,18 +75,9 @@ nav object {
   padding-left: 60%;
 }
 
-@media (min-width: 1280px) {
-  nav img,
-  nav object {
-    height: 75px;
-  }
-}
-
-@media (max-width: 1280px) {
-  nav img,
-  nav object {
-    height: 50px;
-  }
+nav img,
+nav object {
+  height: 75px;
 }
 
 @font-face {
